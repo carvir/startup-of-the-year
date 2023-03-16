@@ -1,0 +1,66 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+/*    Andrei said to use this if using Bootstrap5 or higher*/
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+  --bs-btn-hover-bg: #ee4b08; 
+  --bs-btn-hover-border-color: #ee4b08;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+
+/*If you followed the previous video but your button color when hovering is not working as expected (stays blue and not turning orange), then read on!
+
+Bootstrap button docs as of v5.2.0+ has a new update:
+
+From the example given followed by the above paragraph on the Bootstrap website, you can add the below to your code which resolved the hover issue:
+
+.btn-primary {  
+    background-color: #F05F44;  
+    border-color: #F05F44;  
+    --bs-btn-hover-bg: #ee4b08; 
+    --bs-btn-hover-border-color: #ee4b08;
+}*/
